@@ -1,0 +1,7 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality 
+-IC:/Keil_v5/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include
+-IC:/Keil_v5/ARM/CMSIS/Include
+-D__UVISION_VERSION="531" -DSTM32F10X_HD
+-o ./objects/main.o -MD "main.c"
